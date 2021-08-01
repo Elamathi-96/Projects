@@ -244,7 +244,7 @@ int txt_encrypt(FILE *fs, FILE *fs1, FILE *fd, int length)
 		//Getting a byte from txt file
 		bit = fgetc(fs1);
 		j = 0;
-        mask = 1;
+       		mask = 1;
 		while (j < 8)
 		{
 
@@ -270,7 +270,7 @@ int txt_encrypt(FILE *fs, FILE *fs1, FILE *fd, int length)
 			//Incrementing j
 			j++;
 		}
-		mask = 1;
+		
 
 		//Incrementing i	
 		i++;
